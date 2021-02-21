@@ -1,11 +1,13 @@
 {
-  "name": "react-firebase-hooks",
+  "name": "@zanestjohn/react-firebase-hooks",
   "version": "2.2.0",
   "description": "React Hooks for Firebase",
   "author": "CS Frequency Limited (https://csfrequency.com)",
   "license": "Apache-2.0",
   "homepage": "https://github.com/csfrequency/react-firebase-hooks",
-  "bugs": "https://github.com/csfrequency/react-firebase-hooks/issues",
+  "bugs": {
+    "url": "https://github.com/csfrequency/react-firebase-hooks/issues"
+  },
   "keywords": [
     "react",
     "hooks",
@@ -37,7 +39,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/csfrequency/react-firebase-hooks.git"
+    "url": "git+https://github.com/csfrequency/react-firebase-hooks.git"
   },
   "scripts": {
     "build": "npm run clean && rollup -c",
@@ -47,7 +49,6 @@
   },
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
-  "dependencies": {},
   "devDependencies": {
     "@types/react": "^17.0.0",
     "firebase": "^8.0.0",

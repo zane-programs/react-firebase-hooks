@@ -1,5 +1,8 @@
 # React Firebase Hooks
 
+## NOTE:
+I made this as a temporary fix until the original author of the package ([CSFrequency](https://github.com/CSFrequency)) publishes the latest version to npm. For that reason, if you're seeing this long after February of 2021, you should likely disregard this.
+
 A set of reusable [React Hooks](https://reactjs.org/docs/hooks-intro.html) for [Firebase](https://firebase.google.com/).
 
 [![npm version](https://img.shields.io/npm/v/react-firebase-hooks.svg?style=flat-square)](https://www.npmjs.com/package/react-firebase-hooks)
@@ -14,7 +17,7 @@ A set of reusable [React Hooks](https://reactjs.org/docs/hooks-intro.html) for [
 React Firebase Hooks requires **React 16.8.0 or later** and **Firebase v5.0.0 or later**.
 
 ```
-npm install --save react-firebase-hooks
+npm install --save @zanestjohn/react-firebase-hooks
 ```
 
 This assumes that you’re using the [npm](https://npmjs.com) package manager with a module bundler like [Webpack](https://webpack.js.org/) or [Browserify](http://browserify.org/) to consume [CommonJS](http://webpack.github.io/docs/commonjs.html) modules.
